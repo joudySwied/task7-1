@@ -6,12 +6,13 @@ import { MdCall } from "react-icons/md";
 
 export default function Cardinfoot() {
   return (
-    <section className="Cardinfoot">
+    <section className={"Cardinfoot"}>
       <div className="address">
         <Smallchild
           icon={<FaLocationDot />}
           above={"Address"}
           down={"4648 Rocky Road Philadelphia"}
+          classo={"Smallchild"}
         />
       </div>
       <div className="line"></div>
@@ -22,6 +23,7 @@ export default function Cardinfoot() {
           icon={<MdEmail />}
           above={"Send Email"}
           down={<a href="#"> info@Example.com</a>}
+          classo={"Smallchild"}
         />
       </div>
       <div className="line"></div>
@@ -31,6 +33,7 @@ export default function Cardinfoot() {
           icon={<MdCall />}
           above={"Call Emergency"}
           down={"+88 0123 654 99"}
+          classo={"Smallchild"}
         />
       </div>
     </section>

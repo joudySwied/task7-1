@@ -23,7 +23,7 @@ export default function Footer({clasfoot, yes}) {
     <section className={clasfoot} >
       <Container>
 
-      { yes && <Cardinfoot /> }
+      { yes && <Cardinfoot  /> }
       
         <Row className="row" >
           <Col xs={12} md={6} lg={3}>

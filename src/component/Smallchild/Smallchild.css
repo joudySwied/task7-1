@@ -2,9 +2,14 @@
 display: flex;
 align-items: center;
 padding: 40px 50px;
-
 }
-.Smallchild .circleforlocatio{
+.Smallchild1 {
+display: flex;
+align-items: center;
+padding: 10px 20px;
+background-color: #384cff;
+}
+.Smallchild .circleforlocatio ,.Smallchild1 .circleforlocatio{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,20 +22,25 @@ margin-right: 10px;
 font-size: 20px;
 border: 1px dashed #384cffc6;
 }
-.Smallchild .right{
+.Smallchild1 .circleforlocatio{
+    color: #fefeff;
+    border: 1px dashed #ffffff;
+    background-color: #384cffc6;
+}
+.Smallchild .right ,.Smallchild1 .right{
 display: flex;
 flex-direction: column;
 }
-.Smallchild .above {
+.Smallchild .above ,.Smallchild1 .above{
 color: white;
 font-size: 13px;
 }
-.Smallchild .down {
+.Smallchild .down ,.Smallchild1 .down{
     color: white;
     font-size: 18px;
     font-weight: bold;
 }
-.Smallchild .down a{
+.Smallchild .down a , .Smallchild1 .down a{
     color: white;
 text-decoration: none;
 }
@@ -38,6 +48,12 @@ text-decoration: none;
 /* 1 */
 @media screen and (max-width: 768px) {
     .Smallchild {
+        /* display: flex;
+        align-items: center; */
+        padding: 20px 50px;
+        
+        }
+    .Smallchild1 {
         /* display: flex;
         align-items: center; */
         padding: 20px 50px;
@@ -53,15 +69,22 @@ text-decoration: none;
         padding-right: 10px;
         
         }
+    .Smallchild1 {
+
+        padding: 0px;
+        padding-right: 10px;
+        
+        }
   }
   
   /* 3 */
   @media screen and (min-width: 993px) and (max-width: 1200px) {
     .Smallchild {
+display: flex;
+align-items: center;
+padding: 40px 50px;
+}
 
-        padding: 60px 0px 60px 20px ;
-        
-        }
   }
   /* 4 */
   @media screen and (min-width: 1201px) {
