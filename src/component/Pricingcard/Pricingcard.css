@@ -1,0 +1,104 @@
+.cardpricing {
+    padding: 20PX 25px 25px;
+    border: .5px solid rgba(130, 136, 226, 0.417) ;
+    border-radius: 12px;
+    width: 310px;
+}
+.cardpricing>.upper{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #384BFF ;
+padding: 12px 20PX;
+border-radius: 12px;
+margin-bottom: 25px;
+
+}
+.cardpricing >.upper>.forp{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.cardpricing > .upper > .forp > .span1{
+color: white;
+font-size: 18px;
+font-weight: bolder;
+}
+.cardpricing > .upper > .forp > .span2 {
+color: white;
+font-size: 30px;
+font-weight: bolder;
+}
+.cardpricing > .upper > .forp > .span2 > span {
+color: white;
+font-size: 15px;
+font-weight: normal;
+}
+.cardpricing > .upper > .forp > .span2 > span {
+color: white;
+font-size: 15px;
+font-weight: normal;
+}
+.cardpricing > .upper > img {
+width: 60px;
+}
+.cardpricing > .forfitured  {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 10px;
+color: #3d5da2;
+}
+.cardpricing > .forfitured >span > .icon1{
+color: #384BFF;
+margin-right: 5px;
+}
+.cardpricing > .forfitured >span > .icon2{
+color: #c81e1e;
+margin-right: 5px;
+
+}
+.cardpricing > .button1 , .cardpricing > .button2 {
+width: 100%;
+padding: 9PX 25px;
+border: 1px solid rgba(132, 118, 210, 0.511) ;
+border-radius: 12px;
+font-size: 15px;
+font-weight: bolder;
+}
+.cardpricing > .button1    {
+color: #384BFF;
+background-color: inherit;
+}
+.cardpricing > .button2    {
+color: #ffffff;
+background-color: #18185E;
+}
+.cardpricing > button1 > .icon ,.cardpricing > button2 > .icon{
+font-size: 13px;
+margin-left: 5px;
+color: #384cffa4;
+}
+/* responsive  */
+/* 1 */
+@media screen and (max-width: 768px) {
+    .cardpricing {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+}
+ 
+ /* 2 */
+ @media screen and (min-width: 768px) and (max-width: 992px) {
+ }
+ /* 3 */
+ @media screen and (min-width: 993px) and (max-width: 1200px) {
+    .cardpricing {
+        width: 98%;
+        margin-bottom: 50px;
+    }
+ }
+ /* 4 */
+ @media screen and (min-width: 1201px) {
+ }

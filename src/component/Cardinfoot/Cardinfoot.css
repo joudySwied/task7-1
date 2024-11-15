@@ -1,0 +1,54 @@
+.Cardinfoot {
+  width: 80%;
+  background-color: #384bff;
+  border-radius: 25px;
+  position: absolute;
+  top: 10%;
+  display: flex;
+}
+.Cardinfoot .line {
+  width: 1px;
+  height: 60px;
+  margin-top: 40px;
+  background-color: rgba(207, 203, 203, 0.568);
+}
+/* responsive  */
+/* 1 */
+@media screen and (max-width: 768px) {
+  .Cardinfoot {
+    width: 94%;
+    top: 5%;
+    left: 3%;
+    flex-direction: column;
+    padding: 50px 0px;
+
+  }
+  .Cardinfoot .line {
+    display: none;
+  }
+}
+
+/* 2 */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .Cardinfoot {
+    width: 94%;
+    top: 5%;
+    left: 3%;
+    padding: 50px 0px 50px 10px;
+
+  }
+  .Cardinfoot .line {
+    display: none;
+  }
+}
+
+/* 3 */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .Cardinfoot .line {
+    display: none;
+} 
+
+}
+/* 4 */
+@media screen and (min-width: 1201px) {
+}

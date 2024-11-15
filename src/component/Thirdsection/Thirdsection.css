@@ -1,0 +1,147 @@
+.thirdsection1 {
+  position: relative;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.thirdsection {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 80px 50px;
+}
+.thirdsection .smalltitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.thirdsection .smalltitle .icon {
+}
+.thirdsection .smalltitle h3 {
+  font-size: 15px;
+}
+.thirdsection h2 {
+  font-size: 30px;
+  text-align: center;
+  font-weight: bolder;
+}
+.thirdsection .undertitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.thirdsection .undertitle > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  
+}
+
+.thirdsection .undertitle .month {
+  padding: 5px 5px;
+  border-radius: 25px;
+  font-size: 13px;
+  background-color: #384bff;
+  position: relative;
+  margin-right: 5px;
+
+}
+.thirdsection .undertitle .year {
+  padding: 10px 20px 10px 10px;
+  border: 1px solid rgba(104, 160, 238, 0.326);
+  border-radius: 25px;
+  font-size: 13px;
+  position: relative;
+}
+.thirdsection .undertitle img {
+  width: 70px;
+  margin-inline: 20px;
+}
+.thirdsection .undertitle .save {
+  text-align: center;
+  color: #384bff;
+  font-size: 15px;
+}
+.thirdsection .forcards {
+  padding: 30px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* decoration  */
+.deiamond {
+  position: absolute;
+  top: 80px;
+  right: 40px;
+  width: 50px;
+}
+.hand {
+  width: 150px;
+  position: absolute;
+  top: 530px;
+}
+/* responsive  */
+/* 1 */
+@media screen and (max-width: 768px) {
+  .thirdsection1 {
+    height: auto;
+
+  }
+
+  .thirdsection {
+    padding: 50px 0px;
+
+  }
+  .thirdsection .smalltitle {
+    margin-left: 0px;
+  }
+
+  .thirdsection h2 {
+    font-size: 35px;
+    width: 90%;
+  }
+  .thirdsection .undertitle {
+    flex-direction: column;
+  }
+
+  .thirdsection .undertitle .year {
+    margin-bottom: 15px;
+
+  }
+
+
+  /* decoration  */
+  .deiamond {
+    display: none;
+  }
+  .hand {
+    display: none;
+  }
+}
+/* 2 */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .deiamond {
+    display: none;
+  }
+  .hand {
+    display: none;
+  }
+}
+/* 3 */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .deiamond {
+    display: none;
+  }
+  .hand {
+    display: none;
+  }
+
+  
+
+}
+/* 4 */
+@media screen and (min-width: 1201px) {
+}

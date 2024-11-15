@@ -1,0 +1,137 @@
+.cardteam {
+    height: 350px;
+    width: 260px;
+    position: relative;
+    margin-bottom:30px ;
+    border-radius: 15px;
+    /* margin-left: 30px; */
+    overflow: hidden;
+    
+}
+.cardteam > img{
+width: 100%;
+border-radius: 15px;
+}
+.cardteam > .introduce{
+height: 120px;
+width: 290px ;
+background-color: #18185E;
+position: absolute;
+bottom: -20px;
+right: -5px;
+border-radius: 15px;
+transform: rotate(174deg);
+
+}
+
+.cardteam > .introduce > .forshareicon  {
+position: absolute;
+width: 30px;
+height: 30px;
+background-color: #384BFF;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+bottom: -10px;
+right: 250px;
+z-index: 5;
+transform: rotate(187deg);
+color: white;
+font-weight: bold;
+}
+.cardteam > .introduce > .forshareicon > .icon {
+font-weight: bold;
+}
+.cardteam > .introduce > h5 {
+ position: absolute;
+ top: 60px;
+ right: 90px;
+ z-index: 3;
+ color: white;
+ font-size: 25px;
+ transform: rotate(187deg);
+
+}
+.cardteam > .introduce > span {
+    position: absolute;
+    top: 35px;
+    right: 100px;
+    z-index: 3;
+    color: white;
+    transform: rotate(187deg);
+    
+}
+/* responsive  */
+/* 1 */
+@media screen and (max-width: 768px) {
+    .cardteam {
+    height: 500px ;
+        width: 100%; 
+    }
+    .cardteam > img{
+  height: 500px;
+  /* width: 100%; */
+    border-radius: 15px;
+    }
+    .cardteam > .introduce{
+    height: 150px;
+    width: 120% ;
+    bottom: -30px;
+    right: -5px;   
+    }
+    
+    .cardteam > .introduce > .forshareicon  {
+    bottom: -10%;
+    left: 10%;
+    }
+    .cardteam > .introduce > h5 {
+     top: 60%;
+     right: 40%;
+ 
+    }
+    .cardteam > .introduce > span {
+        top: 40%;
+        right: 40%;       
+ }
+}
+  /* 2 */
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+
+  }
+        
+  /* 3 */
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+
+    .cardteam {
+        height: 250px;
+        width: 80%; 
+        overflow: hidden;
+    }
+    .cardteam > .introduce{
+    height: 150px;
+    width: 120% ;
+    bottom: -20%;
+    right: -10px;   
+    }
+    
+    .cardteam > .introduce > .forshareicon  {
+    bottom: -10%;
+    left: 10%;
+    }
+    .cardteam > .introduce > h5 {
+        font-size: 16px;
+     top: 60%;
+     right: 25%;
+ 
+    }
+    .cardteam > .introduce > span {
+        top: 50%;
+        font-size: 13px;
+
+        right: 25%;       
+ }
+  }
+  /* 4 */
+  @media screen and (min-width: 1201px) {
+  }

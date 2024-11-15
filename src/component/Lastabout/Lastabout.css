@@ -1,0 +1,65 @@
+.gray > img {
+    width: 150px;
+}
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.totitle {
+    display:flex ;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.totitle .line{
+width: 35%;
+height: 2px;
+background-color: rgba(167, 165, 165, 0.576);
+}
+.totitle >span{
+margin-left: 20px;
+margin-right: 20px;
+font-weight: bold;
+}
+/* responsive  */
+/* 1 */
+@media screen and (max-width: 768px) {
+    .gray {
+       display: none;
+    }
+    .totitle .line{
+        display: none;
+ } 
+ .blue {
+    display: flex;
+    justify-content: center;
+ }
+ .totitle {
+margin-top: -20px;
+}
+
+}
+  
+  /* 2 */
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    .row {
+        justify-content: center;
+    }
+.brand {
+    margin-bottom: 20px;
+}
+  }
+        
+  /* 3 */
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+    .secondabout {
+        padding: 0px;
+    }
+  }
+  /* 4 */
+  @media screen and (min-width: 1201px) {
+  }

@@ -1,0 +1,182 @@
+.Navbar {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: white;
+  padding: 5px 50px 5px 20px;
+  border-radius: 35px;
+  border: 7px solid #bfc5ffb4;
+  border-top: 0;
+  z-index: 10;
+}
+
+.Navbar .logo {
+  width: 100px;
+}
+.Navbar ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.Navbar ul li {
+  margin-right: 25px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+}
+.Navbar ul li >a  {
+text-decoration: none;
+color: black;
+}
+
+.Navbar ul li .downicon {
+  margin-left: 3px;
+  font-size: 10px;
+}
+
+.Navbar .navRight {
+  display: flex;
+  align-items: center;
+}
+
+.Navbar .navRight .searchicon {
+  margin-right: 15px;
+  font-size: 14px;
+  color: #384bff;
+
+}
+.Navbar .navRight .shoppingicon {
+  margin-right: 40px;
+  color: #384bff;
+  font-size: 14px;
+}
+
+.Navbar button {
+  padding: 10px 19px;
+  border-radius: 35px;
+  border: 0;
+  background-color: #384bff;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+}
+.Navbar button .righticon {
+  margin-left: 7px;
+  font-size: 10px;
+}
+.Navbar .menu {
+  font-size: 30px;
+  color: #384bff;
+  display: none;
+}
+.close {
+  display: none;
+}
+/* 1 */
+@media screen and (max-width: 768px) {
+  .Navbar {
+    padding: 7px 15px;
+    justify-content: space-between;
+    width: 90%;
+  }
+
+  .Navbar .menu {
+    display: block;
+  }
+  .Navbar .setoflinks {
+    position: absolute;
+   width: 250px;
+   height: 450px;
+   background-color: rgba(255, 255, 255, 0.64);
+   top: 20px;
+   right: 0px;
+   flex-direction: column;
+   transition: 0.6s;
+  }
+  .Navbar .setoflinks .close {
+    display: block;
+    font-size: 30px;
+    margin-left: 60%;
+  }
+  .Navbar .setoflinks1 {
+    position: absolute;
+   width: 250px;
+   height: 450px;
+   background-color: rgba(219, 215, 215, 0.106);
+   top: 80px;
+   right: -300px;
+   flex-direction: column;
+   transition: 0.6s;
+  }
+  .Navbar ul {
+   flex-direction: column;
+   
+  }
+  .Navbar ul li{
+    margin-top: 30px;
+    font-size: 20px;
+    border-bottom: 1px solid rgb(169, 164, 164);
+    width: 100%;
+  }
+  .Navbar button {
+  display: none;
+  }
+  .Navbar .navRight .searchicon {
+    margin-right: 20px;
+  }
+  .Navbar .navRight .shoppingicon {
+    margin-right: 20px;
+
+  }
+
+}
+
+/* 2 */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+      
+      .Navbar   {
+width: 90%;      }
+      .Navbar ul  {
+        margin-left: 0px;
+      }
+      .Navbar ul li {
+        margin-right: 5px;
+        font-size: 13px;
+      }
+      .Navbar button {
+        padding: 5px 10px;
+        border-radius: 35px;
+        font-size: 10px;
+      }
+      .Navbar .navRight .searchicon {
+        margin-right: 10px;
+      }
+      .Navbar .navRight .shoppingicon {
+        margin-right: 10px;
+      }
+      .Navbar button .righticon {
+        margin-left: 0px;
+        font-size: 10px;
+      }
+
+}
+/* 3 */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .Navbar button {
+        padding: 5px 10px;
+        border-radius: 35px;
+        font-size: 10px;
+      }
+      
+}
+/* 4 */
+@media screen and (min-width: 1201px) {
+}

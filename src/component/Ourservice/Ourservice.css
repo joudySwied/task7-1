@@ -1,0 +1,97 @@
+.ourservice{
+    padding: 70px;
+
+}
+
+.smalltitle{
+    margin-left: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+.smalltitle>.icon{
+    color: blue;
+    font-size: 10px;
+
+}
+.smalltitle> h3{
+ color: blue;
+ font-size: 15px;
+ margin: 10px;
+
+}
+
+.ourservice > .row2{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ourservice > .row2 >h4 {
+font-size: 35px;
+font-weight: bold;
+width: 45%;
+margin:10px 10px 30px 50px ;
+}
+.ourservice > .row2 > .foriconsinservice {
+display: flex;
+}
+.ourservice > .row2 > .foriconsinservice >.circleforicon  {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 35px;
+width: 35px;
+border-radius: 50%;
+background-color: #384BFF;
+box-shadow: 0 0 5px 0 rgb(109, 144, 196);
+margin-right: 10px;
+}
+.ourservice > .row2 > .foriconsinservice > .circleforicon1  {
+background-color: white;
+}
+.ourservice > .row2 > .foriconsinservice  .icon  {
+font-size: 12px;
+}
+.ourservice > .row2 > .foriconsinservice  .icon2  {
+color: white;
+}
+.video {
+    width: 100%;
+    margin-inline: auto;
+    height: 400px;
+    margin-top: 50px;
+    margin-bottom: -200px;
+    border-radius: 25px;
+}
+/* responsive  */
+/* 1 */
+@media screen and (max-width: 768px) {
+    .ourservice{
+        padding:5px;
+        padding-top: 40px;
+    }
+    
+    .video {
+        width: 95%;
+        margin-left: 2.5%;
+        margin-top: 50px;
+        margin-bottom: -200px;
+    }
+ }
+  
+  /* 2 */
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    .ourservice{
+        padding: 20px;
+    }
+  }
+        
+  /* 3 */
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+
+  }
+  /* 4 */
+  @media screen and (min-width: 1201px) {
+  }

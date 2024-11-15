@@ -1,0 +1,105 @@
+.secondabout {
+    padding: 10px 50px;
+}
+.secondabout .smalltitle{
+margin-left: 70px;
+}
+.secondabout .row2{
+    margin-left: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.secondabout .row2 h4{
+font-size: 34px;
+font-weight: bold;
+margin-top: 10px;
+margin-bottom: 30px;
+}
+.secondabout .row2 button{
+padding: 10px 20px ;
+border: none;
+border-radius: 20px;
+margin-right: 100px;
+margin-bottom: 50px;
+font-size: 14px;
+background-color: #384BFF;
+
+}
+/* responsive  */
+/* 1 */
+@media screen and (max-width: 768px) {
+    .secondabout {
+        padding: 10px 10px;
+    }
+    .secondabout .smalltitle{
+    margin-left: 0px;
+    }
+    .secondabout .row2{
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .secondabout .row2 .forbutton{
+ 
+display: flex;
+width: 100%;
+justify-content: end;
+    }
+    .secondabout .row2 button{
+ 
+    margin-right: 10px;
+    /* margin-left:60%; */
+    margin-bottom: 30px;  
+    }
+    .forcardmember {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+    }
+ }
+  
+  /* 2 */
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    .secondabout {
+        padding: 10px 10px;
+    }
+    .secondabout .smalltitle{
+    margin-left: 0px;
+    }
+    .secondabout .row2{
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .secondabout .row2 .forbutton{
+ 
+display: flex;
+width: 100%;
+justify-content: end;
+    }
+    .secondabout .row2 button{
+     margin-bottom: 30px;  
+    }
+    .forcardmember {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+    }
+  }
+        
+  /* 3 */
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+    .secondabout {
+        padding: 0px;
+    }
+  }
+  /* 4 */
+  @media screen and (min-width: 1201px) {
+  }

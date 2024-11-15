@@ -1,0 +1,16 @@
+/* responsive  */
+/* 1 */
+@media screen and (max-width: 768px) {
+
+}
+ 
+ /* 2 */
+ @media screen and (min-width: 768px) and (max-width: 992px) {
+       
+ /* 3 */
+ @media screen and (min-width: 993px) and (max-width: 1200px) {
+
+ }
+ /* 4 */
+ @media screen and (min-width: 1201px) {
+ }

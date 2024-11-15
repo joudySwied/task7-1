@@ -1,0 +1,71 @@
+.cardi{
+    font-family: "Rajdhani", sans-serif;
+    background-color: #F3F7FB;
+    height: auto;
+    width: 240px;
+    padding: 25px;
+    border-radius: 30px;
+    border: 1px solid #d7dadd ;
+
+}
+.cardi .squreforimg{
+    height: 40px;
+    width: 40px;
+    border: solid 1px rgba(188, 188, 238, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:7px;
+    margin-bottom: 20px;
+    background-color: inherit;
+
+
+}
+.cardi .imagforcard {
+    width: 30px;
+}
+.cardi h5 {
+font-size: 15px;
+font-weight: bold;
+}
+.cardi p {
+font-size: 13px;
+color: rgba(0, 0, 0, 0.547);
+}
+.cardi button  {
+font-size: 13px;
+border: 1px solid #d7dadd ;
+border-radius: 20px;
+padding: 7px 20px;
+background-color: inherit;
+
+}
+.cardi button .icon {
+font-size: 16px;
+margin-left: 2px;
+color: rgb(109, 104, 104);
+}
+/* responsive  */
+/* 1 */
+@media screen and (max-width: 768px) {
+    .cardi {
+        width: 100%;
+        margin: 0px;
+        margin-top: 30px;
+    
+    }
+ }
+  
+  /* 2 */
+  @media screen and (min-width: 768px) and (max-width: 992px) {}
+
+        
+  /* 3 */
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+    .cardi{
+     width: 200px; 
+    }
+  }
+  /* 4 */
+  @media screen and (min-width: 1201px) {
+  }

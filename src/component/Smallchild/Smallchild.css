@@ -1,0 +1,68 @@
+.Smallchild {
+display: flex;
+align-items: center;
+padding: 40px 50px;
+
+}
+.Smallchild .circleforlocatio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background-color: rgb(255, 255, 255);
+height: 50px;
+width: 50px;
+border-radius: 50%;
+color: #384BFF;
+margin-right: 10px;
+font-size: 20px;
+border: 1px dashed #384cffc6;
+}
+.Smallchild .right{
+display: flex;
+flex-direction: column;
+}
+.Smallchild .above {
+color: white;
+font-size: 13px;
+}
+.Smallchild .down {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.Smallchild .down a{
+    color: white;
+text-decoration: none;
+}
+/* responsive  */
+/* 1 */
+@media screen and (max-width: 768px) {
+    .Smallchild {
+        /* display: flex;
+        align-items: center; */
+        padding: 20px 50px;
+        
+        }
+  }
+  
+  /* 2 */
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    .Smallchild {
+
+        padding: 0px;
+        padding-right: 10px;
+        
+        }
+  }
+  
+  /* 3 */
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+    .Smallchild {
+
+        padding: 60px 0px 60px 20px ;
+        
+        }
+  }
+  /* 4 */
+  @media screen and (min-width: 1201px) {
+  }

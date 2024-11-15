@@ -1,0 +1,234 @@
+.hero {
+  height: 530px;
+  width: 90%;
+  margin-left: 5%;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px; 
+  border-bottom-left-radius: 50px; 
+  position: relative;
+  top: 45px;
+  display: flex;
+  z-index: -1;
+  background-color: #384bff;
+  background-image: url("./../../assets/imgs/heroShape1_2.webp"),
+    url("./../../assets/imgs/heroShape1_1.webp");
+  background-position: bottom left, bottom right;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 200px 400px, 400px 350px;
+}
+
+.hero .lefthero {
+  margin-top: 100px;
+  height: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-left: 130px;
+}
+
+.hero .lefthero > p {
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+.hero .lefthero p .icon {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+.hero .lefthero h1 {
+  font-size: 40px;
+}
+.hero .lefthero .divforlist {
+  display: flex;
+  margin: 25px 0px 0px -40px;
+}
+.hero .lefthero ul {
+  list-style: none;
+  font-size: 13px;
+}
+.hero .lefthero ul li {
+  margin-right: 50px;
+  margin-bottom: 7px;
+}
+.hero .lefthero ul li .tickicon {
+  margin-right: 5px;
+}
+
+.hero .lefthero button {
+  background-color: #f98600;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+.hero .lefthero button .righticon {
+  margin-left: 5px;
+}
+
+.hero .righthero img {
+  width: 65%;
+  margin-top: 40px;
+}
+
+/* this is for small div in bottom left */
+
+.inbottom {
+  display: flex;
+  background-color: #4c5dff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.inbottom .childhero {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+.inbottom .childheroplus {
+  border-right: 1px solid rgba(255, 255, 255, 0.721);
+  padding-right: 20px;
+}
+.inbottom .childhero p {
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+}
+.inbottom .childhero p > .star {
+  color: rgb(44, 134, 24);
+  font-size: 13px;
+}
+.inbottom .childhero .grandchild {
+  display: flex;
+}
+.inbottom .childhero .grandchild > img {
+  width: 70px;
+  height: 30px;
+  margin-right: 10px;
+}
+.inbottom .childhero .grandchild > .smallest {
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+}
+.inbottom .childhero .grandchild > .smallest > span {
+  font-size: 8px;
+  color: #e0ab3a;
+}
+.inbottom .childhero .grandchild > .smallest > .span2 {
+  font-size: 10px;
+  color: #ffffff;
+}
+
+/* responsive */
+/* 1 */
+@media screen and (max-width: 768px) {
+  .hero {
+    margin-left: 0px;
+    height: auto;
+    width: 100%;
+    border-radius: 0px;
+    top: 25px;
+    background-color: #384bff;
+    background-image: none;
+  }
+  .hero .lefthero {
+    margin-top: 30px;
+    color: white;
+    padding-left: 30px;
+    order: 2;
+  }
+  .hero .lefthero h1 {
+    font-size: 37px;
+  }
+  .hero .lefthero .divforlist {
+    flex-direction: column;
+    margin: 15px 0px 10px -40px;
+  }
+  .hero .lefthero ul {
+    margin: 0px;
+  }
+  .hero .righthero img {
+    width: 75%;
+    margin-top: 100px;
+    order: 1;
+  }
+
+  .righthero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .inbottom {
+    width: 90%;
+    margin-left: 5px;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .inbottom .childheroplus {
+    border: none;
+    padding: 0px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.721);
+    padding-bottom: 20px;
+  }
+  .childheroplusplus {
+    padding-top: 20px;
+  }
+}
+
+/* 2 */
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .hero {
+        width: 94%;
+        margin-left: 3%;
+        height: auto;
+        top: 45px;
+        background-image: none;
+        border-radius: 25px;
+      }
+      .hero .lefthero {
+        margin-top: 50px;
+        padding-left: 30px;
+      }
+      .hero .lefthero h1 {
+        font-size: 25px;
+      }
+      .hero .lefthero .divforlist {
+        margin: 15px 0px 10px -40px;
+      }
+      .hero .lefthero ul {
+        margin: 0px;
+      }
+      .hero .lefthero ul li {
+        margin-right: 0px;
+      }
+      .hero .righthero img {
+        width: 75%;
+        margin-top: 100px;
+      }
+    
+      .righthero {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .inbottom {
+        width: 90%;
+        margin-left: 5px;
+        /* flex-direction: column; */
+        /* margin-top: 30px; */
+      }
+
+}
+
+@media screen and (min-width: 1201px) {
+  .hero {
+    overflow: hidden;
+  }
+}

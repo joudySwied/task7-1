@@ -1,0 +1,41 @@
+.End {
+  display: flex; 
+  background-color: #384BFF;
+  padding:  15px 160px;
+  justify-content: space-between;
+}
+.End .firstchild{
+color: white;
+font-size: 13px;
+}
+.End .secondchild{
+    color: white;
+    font-size: 13px;
+}
+.End .secondchild .one{
+margin-right: 20px;
+}
+ /* responsive  */
+/* 1 */
+@media screen and (max-width: 768px) {
+    .End {
+        display: flex; 
+        background-color: #384BFF;
+        flex-direction: column;
+        padding:  15px 60px;
+        justify-content: center;
+        align-items: center;
+      }
+}
+  /* 2 */
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+
+  }
+        
+  /* 3 */
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+
+  }
+  /* 4 */
+  @media screen and (min-width: 1201px) {
+  }

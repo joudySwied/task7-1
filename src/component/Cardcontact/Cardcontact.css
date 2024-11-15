@@ -1,0 +1,106 @@
+.cardcontact {
+  width: 80%;
+  background-color: #384bff;
+  color: white;
+  border-radius: 25px;
+  padding: 50px 60px ;
+  position: relative;
+  margin-bottom: -200px;
+  margin-top: 100px;
+  position: relative;
+  z-index: 3;
+
+}
+.cardcontact .contain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardcontact .contain > img {
+  width: 180px;
+}
+.cardcontact .contain > .dsecription {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  width: 540px;
+}
+.cardcontact .contain > .dsecription > .smalltitle {
+}
+.cardcontact .contain > .dsecription > .smalltitle > .icon {
+  color: white;
+}
+.cardcontact .contain > .dsecription > .smalltitle > h3 {
+  color: white;
+}
+.cardcontact .contain > .dsecription > p {
+  color: white;
+  font-size: 28px;
+  width: 70%;
+  font-weight: bolder;
+  margin-left: 50px;
+  margin-top: 8px;
+}
+.cardcontact .contain > button {
+    padding: 10px 25px;
+    font-size: 15px;
+    border: none;
+    border-radius: 25px;
+}
+.cardcontact > img {
+    position: absolute;
+    top: 60px;
+    right: 120px;
+    width: 350px;
+}
+ /* responsive  */
+/* 1 */
+@media screen and (max-width: 768px) {
+  .cardcontact {
+    width: 95%;
+    padding-left: 20px;
+  }
+  .cardcontact .contain {
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+  }
+  .cardcontact .contain > img {
+    width: 180px;
+    margin-bottom: 30px;
+  }
+  .cardcontact .contain > .dsecription {
+    width: 100%;
+  }
+
+  .cardcontact .contain > .dsecription > p {
+    width: 95%;
+    margin-left: 0px;
+    margin-bottom: 30px;
+ 
+  }
+  .cardcontact .contain > button {
+      padding: 10px 20px;
+      font-size: 13px;
+
+  }
+  .cardcontact > img {
+      top: 290px;
+      right:150px;
+      width: 300px;
+  }
+}
+/* 2 */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+}
+/* 3 */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+
+  }
+
+
+/* 4 */
+@media screen and (min-width: 1201px) {
+}

@@ -1,0 +1,124 @@
+.lastcard {
+  background-color: #384bff;
+  height: 140px;
+  border-radius: 25px;
+  margin-top: 170px;
+  margin-bottom: -150px;
+  position: relative;
+  width: 80%;
+  margin-left: 10%;
+}
+.lastcard .contain {
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+.lastcard .contain > img {
+  height: 200px;
+  margin-top: -60px;
+  margin-left: 50px;
+  margin-right: 90px;
+}
+.lastcard .contain > p {
+  font-size: 20px;
+  color: white;
+  width: 200px;
+  font-weight: bolder;
+  margin-right: 200px;
+}
+.lastcard .contain > button {
+  padding: 10px 20px;
+  font-size: 11px;
+  border: none;
+  border-radius: 25px;
+}
+.lastcard .contain > .icon {
+  margin-left: 5px;
+}
+.lastcard > .shape1 {
+  position: absolute;
+  bottom: 0px;
+  left: 20px;
+  z-index: 0;
+}
+.lastcard > .shape2 {
+  position: absolute;
+  width: 400px;
+  /* background-color: red; */
+  right: 150px;
+  top: 10px;
+}
+
+/* responsive  */
+/* 1 */
+@media screen and (max-width: 768px) {
+  .lastcard {
+    width: 98%;
+    margin-left: 1%;
+    height: 200px;
+    margin-top: 80px;
+    margin-bottom: -150px;
+  }
+  .lastcard .contain {
+flex-direction: column;
+justify-content: start;
+align-items: start;
+padding: 50px;
+  }
+  .lastcard .contain > img {
+    display: none;
+  }
+  .lastcard .contain > button {
+    margin-left: 35%;
+  }
+  .lastcard > .shape1 {
+    display: none;
+  }
+  .lastcard > .shape2 {
+    display: none;
+  }
+  .lastcard .contain > p {
+    font-size: 130%;
+  }
+  .lastcard .contain > button {
+    padding: 10px 10px;
+
+  }
+}
+/* 2 */
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .lastcard {
+        margin-top: 70px;
+        margin-bottom: -150px;
+
+      }
+      .lastcard .contain {
+        align-items: center;
+        justify-content: space-between;
+
+        padding: 40px;
+
+      }
+      .lastcard .contain > img {
+        display: none;
+      }
+      .lastcard .contain > p {
+        margin: 0px;
+      }
+
+      .lastcard > .shape1 {
+        display: none;
+      }
+      .lastcard > .shape2 {
+display: none;
+      }
+      
+}
+/* 3 */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+
+}
+/* 4 */
+@media screen and (min-width: 1201px) {
+}

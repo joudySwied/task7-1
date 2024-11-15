@@ -1,0 +1,72 @@
+.hero2 {
+    height: 350px;
+
+    position: relative;
+    background-image: url("./../../assets/imgs/breadcrumb.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    z-index: -1;
+    top: 60px;
+}
+.hero22 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    /* background-color: #0b135cb9; */
+    background:linear-gradient(to right,#0b135ce0,#0b135c7f)
+}
+.hero22 .dicore1{
+height: 90%;
+position: absolute;
+left: 0px;
+}
+.hero22 .dicore2{
+/* background-color: red; */
+height: 100%;
+position: absolute;
+right: 0px;
+bottom: 0px;
+}
+
+
+.hero2 .descriptionhero2{
+text-align: center;
+}
+.hero2 .descriptionhero2 h2{
+font-size: 40px;
+font-weight: bold;
+color: white;
+}
+.hero2 .descriptionhero2 span{
+font-weight: bold;
+color: white;
+font-size: 15px;
+word-spacing: 4px;
+}
+
+/* responsive */
+/* 1 */
+@media screen and (max-width: 768px) {
+    .hero22 .dicore2{
+        height: 60%;
+        }
+        .hero22 .dicore1{
+            height: 100%;
+            bottom: -80px;
+            }
+
+  }
+  
+  /* 2 */
+  @media screen and (min-width: 768px) and (max-width: 1200px) {
+
+  
+  }
+  
+  @media screen and (min-width: 1201px) {
+
+  }

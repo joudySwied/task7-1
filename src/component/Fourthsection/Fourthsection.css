@@ -1,0 +1,115 @@
+.fourthsection {
+  background-color: #f2f6fe;
+  padding: 200px 100px 120px;
+  position: relative;
+}
+
+.fourthsection .contain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fourthsection > .contain > h2 {
+  font-weight: bolder;
+  margin-bottom: 40px;
+  font-size: 32px;
+}
+.fourthsection > .contain > .parent {
+  width: 350px;
+  height: 15px;
+  background-color: #e3e5ea8d;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: -20px;
+}
+.fourthsection > .contain > .parent > .child {
+  width: 115px;
+  height: 15px;
+  background-color: #384bff;
+  border-radius: 20px;
+}
+
+.boxicon {
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  color: rgb(211, 140, 89);
+  font-size: 20px;
+}
+
+.sqareicon {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  color: rgb(89, 146, 211);
+  font-size: 20px;
+}
+
+/* responsive  */
+/* 1 */
+@media screen and (max-width: 768px) {
+  .hide {
+    display: none;
+  }
+  .fourthsection {
+    padding: 200px 0px;
+  }
+
+  /* .fourthsection .contain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  } */
+
+  .fourthsection > .contain > h2 {
+    font-size: 40px;
+    width: 70%;
+    text-align: center;
+  }
+  .fourthsection .contain .smalltitle {
+    margin-left: 0px;
+    margin-bottom: 10px;
+  }
+  .fourthsection > .contain > .parent {
+    width: 300px;
+  }
+  .fourthsection > .contain > .parent > .child {
+    width: 100px;
+  }
+  .boxicon {
+    display: none;
+  }
+
+  .sqareicon {
+    display: none;
+  }
+  .nothide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+}
+/* 2 */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .nothide ,.hide {
+        margin-bottom: 50px;
+      }
+
+
+
+}
+/* 3 */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .nothide ,.hide {
+       padding: 0px;
+      }
+}
+/* 4 */
+@media screen and (min-width: 1201px) {
+}

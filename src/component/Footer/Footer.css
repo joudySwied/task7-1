@@ -1,0 +1,214 @@
+.row {
+  align-items: start !important;
+  margin-bottom: 0px !important;
+}
+.footer {
+  background-color: #18185e;
+  color: white;
+  padding: 150px 50px 10px 160px;
+}
+.footer1 {
+  background-color: #18185e;
+  color: white;
+  padding: 280px 50px 10px 160px;
+  position: relative;
+  margin-top: 100px;
+}
+
+.footer .navlogo,
+.footer1 .navlogo {
+  width: 150px;
+  margin-bottom: 30px;
+}
+
+.footer .p1,
+.footer1 .p1 {
+  font-size: 13px;
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+.forfootericons {
+  display: flex;
+}
+
+.iconsquare {
+  width: 25px;
+  height: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.778);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+}
+.iconsquare a {
+  color: white;
+}
+
+.iconsosial {
+  font-size: 13px;
+}
+
+.footer h5,
+.footer1 h5 {
+  font-size: 15px;
+}
+
+.linearline {
+  margin-bottom: 30px;
+  width: 50px;
+  border: none;
+  height: 2px;
+  background-image: linear-gradient(
+    to right,
+    white,
+    rgba(255, 255, 255, 0.046)
+  );
+}
+
+.listoflink {
+  list-style: none;
+  margin-left: 0px;
+  padding: 0px;
+}
+
+.listoflink > li {
+  margin-bottom: 15px;
+}
+.listoflink > li > a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer .smallcard,
+.footer1 .smallcard {
+  display: flex;
+}
+.footer .smallcard > img,
+.footer1 .smallcard > img {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+.footer .smallcard .disecription,
+.footer1 .smallcard .disecription {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.footer .smallcard .disecription .lightspan,
+.footer1 .smallcard .disecription .lightspan {
+  color: rgba(255, 255, 255, 0.422);
+  font-size: 13px;
+}
+.footer .smallcard .disecription .lightspan > .icon,
+.footer1 .smallcard .disecription .lightspan > .icon {
+  margin-right: 2px;
+}
+.footer .smallcard .disecription .span2,
+.footer .smallcard .disecription .span2 {
+  font-size: 13px;
+}
+.thelastone {
+  display: flex;
+  flex-direction: column;
+}
+.thelastone .toemail {
+  margin-bottom: 12px;
+}
+.thelastone .toemail > a {
+  text-decoration: none;
+  color: white;
+}
+.thelastone .toemail > a > .icon {
+  margin-right: 5px;
+  font-size: 13px;
+}
+.thelastone .tophone {
+  margin-bottom: 12px;
+  font-size: 13px;
+}
+.thelastone > form {
+  display: flex;
+  flex-direction: column;
+}
+.foremailandbutton {
+  position: relative;
+  height: 45px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.form > div > button {
+  height: 35px;
+  padding: 5px 12px;
+  border: none;
+  border-radius: 7px;
+  position: absolute;
+  right: 5px;
+  color: white;
+  background-color: #384bff;
+}
+.form > .foremailandbutton > input {
+  height: 45px;
+  width: 180px;
+  border-radius: 9px;
+  padding: 10px;
+  font-size: 13px;
+}
+.forcheakbox {
+  display: flex;
+  align-items: center;
+}
+.forcheakbox > input {
+  margin-right: 10px;
+}
+.forcheakbox > label {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.735);
+}
+.forcheakbox > label > a {
+  color: rgba(255, 255, 255, 0.735);
+}
+/* responsive  */
+/* 1 */
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 150px 20px 10px 0px;
+  }
+  .footer1 {
+    padding: 500px 20px 0px 0px;
+  }
+  .forfootericons,
+  .listoflink,
+  .smallcard1 {
+    margin-bottom: 70px;
+  }
+}
+
+/* 2 */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .footer {
+    padding: 150px 50px 0px 50px;
+  }
+  .footer1 {
+    padding: 300px 50px 0px 50px;
+  }
+  .forfootericons,
+  .listoflink,
+  .smallcard1 {
+    margin-bottom: 70px;
+  }
+}
+
+/* 3 */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+
+  .footer1 {
+    padding: 300px 50px 0px 50px;
+  }
+}
+/* 4 */
+@media screen and (min-width: 1201px) {
+}

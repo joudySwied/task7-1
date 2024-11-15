@@ -1,0 +1,168 @@
+.cardtofeedback1 {
+  background-color: #384bff;
+  padding: 25px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 15px;
+  width: 93%;
+  color: white;
+}
+
+.cardtofeedback2 {
+  background-color: rgb(255, 255, 255);
+  padding: 25px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 15px;
+  width: 93%;
+}
+.cardtofeedback1 .stars,
+.cardtofeedback2 .stars {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  margin-bottom: 15px;
+}
+.cardtofeedback1 .stars .staricon,
+.cardtofeedback2 .stars .staricon {
+  color: #fca21a;
+  font-size: 18px;
+}
+.cardtofeedback1 p {
+  font-size: 13px;
+  color: rgb(255, 255, 255);
+}
+.cardtofeedback2 p {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.638);
+}
+.cardtofeedback1 .under,
+.cardtofeedback2 .under {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.cardtofeedback1 > .under > .profile,
+.cardtofeedback2 > .under > .profile {
+  margin-right: 20px;
+}
+.cardtofeedback1 .under .spans,
+.cardtofeedback2 .under .spans {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}
+.cardtofeedback1 .under .spans .span1 {
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+}
+.cardtofeedback2 .under .spans .span1 {
+  font-size: 15px;
+  color: rgb(29, 28, 28);
+}
+.cardtofeedback1 .under .spans .span2 {
+  font-size: 13px;
+  color: rgb(255, 254, 254);
+}
+.cardtofeedback2 .under .spans .span2 {
+  font-size: 13px;
+  color: rgb(80, 79, 79);
+}
+
+.cardtofeedback1 .under .forcomma .comma1,
+.cardtofeedback1 .under .forcomma .comma2 {
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+}
+.cardtofeedback2 .under .forcomma .comma1,
+.cardtofeedback2 .under .forcomma .comma2 {
+  font-size: 35px;
+  color: rgba(169, 168, 168, 0.716);
+}
+.cardtofeedback1 .under .forcomma .comma1,
+.cardtofeedback2 .under .forcomma .comma1 {
+  margin-right: -16px;
+}
+/* responsive  */
+/* 1 */
+@media screen and (max-width: 768px) {
+  .cardtofeedback1 p {
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+  .cardtofeedback1 .under .spans {
+  display: flex;
+  flex-direction: column;
+  margin-right: 0px;
+  width: 60%;
+}
+.cardtofeedback1 .under .forcomma {
+    width: 110px;
+}
+.cardtofeedback1 .under .forcomma .comma1,
+.cardtofeedback1 .under .forcomma .comma2 {
+  font-size: 25px;
+  margin-right: -10px;
+}
+
+
+}
+/* 2 */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .cardtofeedback1 , .cardtofeedback2{
+        padding: 5px;
+        width: 98%;
+        height: 250px;
+      }
+    .cardtofeedback1 p ,.cardtofeedback2 p{
+        font-size: 15px;
+        margin-bottom: 30px;
+      }
+      .cardtofeedback1 .under .spans ,.cardtofeedback2 .under .spans {
+      display: flex;
+      flex-direction: column;
+      margin-right: 0px;
+      width: 60%;
+    }
+    .cardtofeedback1 .under .forcomma , .cardtofeedback2 .under .forcomma {
+        width: 170px;
+    }
+    .cardtofeedback1 .under .forcomma .comma1,
+    .cardtofeedback1 .under .forcomma .comma2 ,.cardtofeedback2 .under .forcomma .comma1,
+    .cardtofeedback2 .under .forcomma .comma2 {
+      font-size: 25px;
+      margin-right: -5px;
+    }
+}
+/* 3 */
+@media screen and (min-width: 993px) and (max-width: 1298px) {
+    .cardtofeedback1 , .cardtofeedback2{
+        padding: 5px;
+        width: 98%;
+        height: 250px;
+      }
+    .cardtofeedback1 p ,.cardtofeedback2 p ,{
+        font-size: 15px;
+        margin-bottom: 30px;
+      }
+      .cardtofeedback1 .under .spans ,.cardtofeedback2 .under .spans {
+      display: flex;
+      flex-direction: column;
+      margin-right: 0px;
+      width: 60%;
+    }
+    .cardtofeedback1 .under .forcomma , .cardtofeedback2 .under .forcomma {
+        width: 170px;
+    }
+    .cardtofeedback1 .under .forcomma .comma1,
+    .cardtofeedback1 .under .forcomma .comma2 ,.cardtofeedback2 .under .forcomma .comma1,
+    .cardtofeedback2 .under .forcomma .comma2 {
+      font-size: 25px;
+      margin-right: -5px;
+    }
+}
+/* 4 */
+@media screen and (min-width: 1201px) {
+}

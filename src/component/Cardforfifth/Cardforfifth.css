@@ -1,0 +1,105 @@
+.cardforfifth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2px
+
+}
+.cardforfifth > .bigpicture {
+width: 320px;
+}
+.cardforfifth > .data {
+display: flex;
+flex-direction: column;
+padding: 10px 15px;
+margin-top: -50px;
+box-shadow: 0px 0px 3px 1px  rgb(226, 225, 225)  ;
+background-color: white;
+width: 280px;
+border-radius: 5px;
+}
+.cardforfifth > .data >.child1{
+display: flex;
+justify-content: start;
+align-items: center;
+margin-top: 10px;
+
+}
+.cardforfifth > .data  >.child1 > p{
+padding: 3px 10px;
+color: rgb(13, 37, 194);
+border: .5px solid rgba(61, 99, 180, 0.48);
+background-color: white;
+border-radius: 20px;
+font-size: 11px;
+margin: 0px;
+margin-right:  50px;
+}
+.cardforfifth > .data >.child1  >span{
+color: rgb(33, 18, 123);
+font-size: 13px;
+}
+.cardforfifth > .data > p{
+font-size: 15px;
+width: 60%;
+font-weight: bolder;
+margin-top: 15px;
+}
+.cardforfifth > .data > .child3{
+border-top: 1px solid rgb(203, 201, 201);
+display: flex;
+align-items: center;
+padding-top: 20px;
+}
+.cardforfifth > .data > .child3 > .person{
+width: 30px;
+margin-right: 20px;
+}
+.cardforfifth > .data > .child3 > .forsmallspan{
+display: flex;
+flex-direction: column;
+margin-right: 80px;
+}
+.cardforfifth > .data > .child3 > .forsmallspan > .span1{
+color: black;
+font-size: 13px;
+font-weight: bold;
+}
+.cardforfifth > .data > .child3 > .forsmallspan > .span2{
+    font-size: 13px;
+    color: rgb(142, 141, 141);
+
+
+}
+.cardforfifth > .data > .child3 > .squareforarrow{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 8px;
+border: 1px solid rgb(205, 201, 201);
+background-color: rgb(234, 233, 233);
+color: black;
+}
+
+/* responsive  */
+/* 1 */
+@media screen and (max-width: 768px) {
+    .cardforfifth > .data {
+    margin-top: 0px;
+    }
+
+  }
+  /* 2 */
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    .cardforfifth {
+margin-bottom: 30px;
+gap: 10px;
+    }
+  }
+  /* 3 */
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+  }
+  /* 4 */
+  @media screen and (min-width: 1201px) {
+  }
